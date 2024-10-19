@@ -1,6 +1,6 @@
 package Oct.ex_02102024;
 
-public class Lab10oct {
+public class Lab10oct_literales {
     public static void main(String[] args) {
         //list of literals in java
         //1) boolean
