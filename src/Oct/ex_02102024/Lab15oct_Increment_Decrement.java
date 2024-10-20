@@ -14,6 +14,12 @@ public class Lab15oct_Increment_Decrement {
         // 2)Decrement operator
         //>> post decrement - a-- ( print and decrese )
         //>> pre decrement  - --a ( decrese and print )
+
+        System.out.println("====== TASK =======");
+        int b = 20 ;
+        System.out.println(--b + b++ + b--);
+        //                   19  19   20
     }
+
 
 }
