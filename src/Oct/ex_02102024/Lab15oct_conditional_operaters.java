@@ -26,13 +26,10 @@ public class Lab15oct_conditional_operaters {
          int no1 = 56 ;
          int no2 = 234 ;
          int no3 = 336 ;
-         String largest = (no1 > no2) && (no1 > no3 ) ? "no1":(no2 > no1) && (no2 > no3) ? "no2":"no3";
+         int largest = (no1 > no2) && (no1 > no3 ) ? no1: (no2 > no3) ? no2:no3;
          System.out.println("largest no is "+ largest);
 
-         // Increment (++) / Decrement (--)
-        // 1) Increment operator
-        //  >> post increment - a++ ( print and increase )
-        //  >> pre increment  - ++a ( increase and print )
+
 
 
 
