@@ -1,5 +1,6 @@
 package Oct_17oct_conditions_loops;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class if_conition_Task2 {
@@ -24,14 +25,17 @@ public class if_conition_Task2 {
         System.out.println("enter the length of side3");
         int side3 = sc.nextInt();
 
-        if((side1 == side2)&&(side1 == side3)){
+        if (side1 <= 0 ||side2<=0 || side3<= 0){
+            System.out.println("Invalid input : sides lengths should be positive ");
+        }
+        else if ((side1 == side2)&&(side1 == side3)){
             System.out.println("given triangle is an Equilateral triangle");
         }
         else if ((side1 == side2 )&&(side2 != side3) ||(side1 != side2)&&(side2 == side3)) {
              System.out.println("given triangle is an isosceles triangle");
         }
         else{
-            System.out.println("given triangle is an scalene  triangle");
+            System.out.println("given triangle is a scalene  triangle");
         }
 
 
